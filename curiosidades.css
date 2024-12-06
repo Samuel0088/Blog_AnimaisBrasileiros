@@ -1,0 +1,52 @@
+#titulo_curiosidades {
+    /* Define tamanho, peso da fonte e centraliza o texto para o título de curiosidades */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo {
+    /* Define tamanho da fonte e margem esquerda para os títulos */
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+main img {
+    /* Ajusta a largura, centraliza as imagens e define margem superior negativa */
+    width: 400px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.texto {
+    /* Define margens laterais e margem superior negativa para o texto */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+hr {
+    /* Ajusta margens laterais da linha horizontal */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 500px) and (max-width: 850px) {
+    main {
+        /* Centraliza o texto no container principal para telas médias */
+        text-align: center;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1400px) {
+    .centralizar_img_animal {
+        /* Centraliza imagens de animais para telas maiores */
+        text-align: center;
+    }
+
+    main {
+        /* Adiciona espaçamento superior e inferior no container principal */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

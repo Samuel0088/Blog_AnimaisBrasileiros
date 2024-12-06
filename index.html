@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Animais do Brasil</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagens/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quem_somos.html">Quem Somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Animais
+              </a>
+              <ul class="dropdown-menu fade">
+                <li><a class="dropdown-item" href="onça.html">Onça Pintada</a></li>
+                <li><a class="dropdown-item" href="arara.html">Arara Azul</a></li>
+                <li><a class="dropdown-item" href="jacare.html">Jacaré Açu</a></li>
+                <li><a class="dropdown-item" href="sucuri.html">Sucuri</a></li>
+                <li><a class="dropdown-item" href="anta.html">Anta</a></li>
+                <li><a class="dropdown-item" href="ariranha.html">Ariranha</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="curiosidades.html">Curiosidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </header>
+
+  <br><br><br>
+
+  <main>
+    <div id="carouselExampleAutoplaying" class="carousel slide m-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active img_animal_carrosel">
+          <img src="imagens/brasil_para_mobile.png" alt="">
+        </div>
+        <div class="carousel-item img_animal_carrosel">
+          <img src="imagens/onca_pintada_carrossel_mobile.png" alt="">
+        </div>
+        <div class="carousel-item img_animal_carrosel">
+          <img src="imagens/arara_azul_mobile.png" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Anterior</font>
+          </font>
+        </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Próximo</font>
+          </font>
+        </span>
+      </button>
+    </div>
+
+    <br><br>
+
+    <p class="fst-italic">Destaques</p>
+    <div class="card-group p-3">
+      <div class="card m-0 l-1 w-100 mt-3" style="width: 18rem;">
+        <img class="rounded-3" src="imagens/sucuridetalhe.jpeg" alt="">
+        <div class="card-body rounded-3">
+          <h5 class="card-title">Sucuri</h5>
+          <p class="card-text">
+            A sucuri, uma das maiores serpentes do mundo, habita os rios da Amazônia e é fundamental para o equilíbrio
+            dos ecossistemas.</p>
+          <a href="sucuri.html" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card m-1 l-2 w-100 mt-3" style="width: 18rem;">
+        <img class="rounded-3" src="imagens/anta.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Anta</h5>
+          <p class="card-text">
+            A anta, o maior mamífero terrestre do Brasil, é uma espécie crucial para a dispersão de sementes e o
+            equilíbrio dos ecossistemas florestais.</p>
+          <a href="anta.html" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card m-1 l-2 w-100 mt-3" style="width: 18rem;">
+        <img class="rounded-3" src="imagens/ariranha.jpg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Ariranha</h5>
+          <p class="card-text">A ariranha, também chamada de lontra gigante, é um predador rápido dos rios amazônicos
+            que desempenha um papel vital.</p>
+          <a href="ariranha.html" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5 p-3 mt-1">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          Animais do Brasil
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="display-5 mb-3 titulo">Fauna Brasileira: A Riqueza e Diversidade dos Animais do Brasil</h2>
+
+          <p class="texto">O Brasil abriga uma das maiores biodiversidades do planeta, com uma fauna rica e variada que
+            inclui espécies únicas e icônicas. No território brasileiro, encontramos animais fascinantes como a
+            majestosa onça-pintada, o colorido mico-leão-dourado, a ágil sucuri e o raro lobo-guará. Além dessas, há
+            inúmeras outras espécies que vivem nos mais diversos ecossistemas, como florestas, cerrado, pantanais e
+            litoral.</p>
+          <br>
+          <hr>
+          <br>
+          <p class="texto">Esses animais desempenham papéis essenciais no equilíbrio dos ecossistemas, e sua preservação
+            é fundamental para a manutenção da biodiversidade. No entanto, muitos deles enfrentam ameaças, como a
+            destruição de habitat e a caça ilegal. Proteger esses seres incríveis é garantir a sobrevivência das futuras
+            gerações e a saúde do meio ambiente.</p>
+        </article>
+
+        <br><br><br>
+
+        <h2>JOGO DA VELHA</h2>
+        <br>
+        <hr />
+        <br>
+        <div class="game">
+          <button data-i="1"></button>
+          <button data-i="2"></button>
+          <button data-i="3"></button>
+          <button data-i="4"></button>
+          <button data-i="5"></button>
+          <button data-i="6"></button>
+          <button data-i="7"></button>
+          <button data-i="8"></button>
+          <button data-i="9"></button>
+        </div>
+        <br>
+        <h2 class="currentPlayer"></h2>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div>
+            <ul class="list-unstyled">
+              <li class="borda borda1">
+                <a class="d-flex rounded-3 flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none p-2"
+                  href="onça.html">
+                  <img class="rounded-3" id="ajustar_img" src="imagens/onca_pintada_detalhes.jpg" alt="">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0 nome_animal">Onça Pintada</h6>
+                    <small class="text-body-secondary nome_cientifico">Panthera onca</small>
+                  </div>
+                </a>
+              </li>
+              <br><br>
+              <li class="borda">
+                <a class="d-flex rounded-3 flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none p-2"
+                  href="arara.html">
+                  <img class="rounded-3" src="imagens/arara-azul.jpg" alt="">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0 nome_animal">Arara Azul</h6>
+                    <small class="text-body-secondary nome_cientifico">Anodorhynchus Hyacinthinus</small>
+                  </div>
+                </a>
+              </li>
+              <br><br>
+              <li class="borda">
+                <a class="d-flex rounded-3 flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none p-2"
+                  href="jacare.html">
+                  <img class="rounded-3" src="imagens/jacare-acu.jpg" alt="">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0 nome_animal">Jacaré Açu</h6>
+                    <small class="text-body-secondary nome_cientifico">Melanosuchus niger</small>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic paginas">Páginas</h4>
+            <ol class="list-unstyled mb-0">
+              <li class="espacamento_paginas"><a href="onça.html">Onça Pintada</a></li>
+              <li class="espacamento_paginas"><a href="arara.html">Arara Azul</a></li>
+              <li class="espacamento_paginas"><a href="jacare.html">Jacaré Açu</a></li>
+              <li class="espacamento_paginas"><a href="sucuri.html">Sucuri</a></li>
+              <li class="espacamento_paginas"><a href="anta.html">Anta</a></li>
+              <li class="espacamento_paginas"><a href="ariranha.html">Ariranha</a></li>
+            </ol>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic paginas">Veja outros projetos</h4>
+            <ol class="list-unstyled">
+              <li class="espacamento_paginas"><a href="https://github.com/Samuel0088/" target="_blank">GitHub Samuel
+                  Vieira</a></li>
+              <li class="espacamento_paginas"><a href="https://github.com/Octavio345" target="_blank">GitHub Octávio Augusto</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <br><br><br>
+
+  <footer class="row row-cols-1 row-cols-md-5 py-5">
+    <div class="col mb-3">
+      <a href="/" class="img_footer d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <img src="imagens/logo.png" alt="">
+      </a>
+      <p>© 2024</p>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,533 @@
+/* Garantir que o body e html não permitam rolagem */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Ajustes no header fixo */
+header {
+    background: #4b779d;
+    position: fixed;
+    top: -5px;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Definindo o fundo do corpo */
+body {
+    background: #CFCFCF;
+}
+
+/* Imagem no navbar */
+.navbar-brand img {
+    width: 80px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+/* Estilo do link no navbar */
+.nav-link {
+    color: white;
+}
+
+/* Estilo do botão do navbar */
+.navbar-toggler {
+    background: #84a7c5;
+}
+
+/* Garantindo que a área principal tenha margem superior */
+main {
+    margin-top: 30px;
+    align-content: center;
+}
+
+/* Fade background */
+.fade {
+    background: #CFCFCF;
+}
+
+/* Estilos do hr */
+hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+/* Estilos do contato */
+#contato {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+/* Estilos do botão */
+.botao {
+    margin: 10px;
+}
+
+/* Ajustes nas imagens dentro de .card-group */
+.card-group img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo para .card */
+.card {
+    background: #CFCFCF;
+}
+
+/* Imagem do animal */
+.img_animal {
+    max-width: 95%;
+    height: auto;
+    border-radius: 15px;
+    margin: 9px;
+}
+
+/* Flex container ajustado */
+.container {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* Texto final */
+.texto_final {
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Imagem final */
+.img_final {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Texto do animal */
+.texto_animal {
+    border: 2px solid #85888C;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding: 20px;
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Imagem de .position-sticky */
+.position-sticky img {
+    width: 100%;
+}
+
+/* Container de progresso fixo */
+.progress-container {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Estilo da barra de progresso */
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #4caf50;
+    transition: width 0.2s ease;
+}
+
+/* Estilos do carousel */
+.carousel-item img {
+    width: 100%;
+}
+
+/* Estilos da .d-flex */
+.d-flex img {
+    width: 100%;
+}
+
+/* Cor de fundo */
+.cor_fundo {
+    background-color: white;
+}
+
+/* Estilo do botão voltar para o topo */
+#botao_voltar_para_cima img {
+    width: 65px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* Ajustes de margem para o container */
+.container {
+    margin-top: -60px;
+}
+
+/* Estilo do título em itálico */
+.fst-italic {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+/* Título */
+.titulo {
+    color: #f29e38;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Texto */
+.texto {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Nome do animal */
+.nome_animal {
+    font-size: 25px;
+}
+
+/* Nome científico */
+.nome_cientifico {
+    font-size: 20px;
+}
+
+/* Estilo das páginas */
+.paginas {
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+/* Espaçamento das páginas */
+.espacamento_paginas {
+    padding-bottom: 5px;
+}
+
+/* Estilos do footer */
+footer {
+    background: #2e8b57;
+    color: white;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap
+}
+
+/* Links do footer */
+.nav-link {
+    color: white;
+    margin-top: 10px;
+}
+
+/* Hover dos links do navbar */
+.nav-link:hover {
+    color: #f29e38;
+}
+
+/* Estilos da coluna */
+.col {
+    margin-left: 20px;
+}
+
+/* Bordas arredondadas */
+.borda {
+    border: 1px solid #85888C;
+    border-radius: 10px;
+}
+
+/* Imagem no footer */
+.img_footer {
+    max-width: 25%;
+    height: auto;
+    display: block;
+}
+
+/* Imagem dentro da .container */
+.container img {
+    width: 25%;
+}
+
+/* Jodo da Velha */
+  h1 {
+    text-align: center;
+  }
+  
+  hr {
+    font-weight: bold;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+  }
+  
+  .game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .game button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: #f7f7f7;
+  }
+
+.texto {
+    text-align: justify;
+}
+
+
+@media (min-width: 500px) and (max-width: 850px) {
+
+    main {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .card {
+        border: none;
+        text-align: justify;
+        gap: 10px;
+    }
+
+    .texto {
+        text-align: justify;
+    }
+
+    .borda {
+        width: 200px;
+    }
+
+    header {
+        margin-top: -5px;
+    }
+
+    /* Container de progresso fixo */
+    .progress-container {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .texto_animal {
+        border: none;
+    }
+}
+
+/* Ajuste para dispositivos de largura maior */
+@media (min-width: 850px) and (max-width: 1400px) {
+
+    main {
+        /* Define margens laterais, cor de fundo e espaçamento superior para o elemento principal */
+        margin-left: 150px;
+        margin-right: 150px;
+        background: #d8dadd;
+        padding-top: 10px;
+    }
+    
+    .dropdown-menu {
+        /* Garante que o menu suspenso fique visível sobre outros elementos */
+        z-index: 10000;
+    }
+    
+    header {
+        /* Define altura fixa para o cabeçalho */
+        height: 80px;
+    }
+    
+    .navbar-brand {
+        /* Ajusta a posição do item de marca na barra de navegação */
+        margin-top: -5px;
+    }
+    
+    .progress-container {
+        /* Ajusta a posição do container de progresso */
+        margin-top: -5px;
+    }
+    
+    .carousel img {
+        /* Define tamanho e margem para as imagens do carrossel */
+        height: 450px;
+        width: 900px;
+        margin-left: 60px;
+    }
+
+    .card {
+        /* Remove borda e define cor de fundo para os cartões */
+        border: none;
+        background: #d8dadd;
+    }
+    
+    .card-group img {
+        /* Define altura fixa para imagens em grupos de cartões */
+        height: 250px;
+    }
+    
+    .card-group {
+        /* Alinha texto dos grupos de cartões com justificação */
+        text-align: justify;
+    }
+    
+    .borda {
+        /* Define espaçamento inferior */
+        padding-bottom: 70px;
+    }
+    
+    .nome_animal {
+        /* Posiciona o nome do animal de forma absoluta */
+        position: absolute;
+        margin-left: -300px;
+        margin-top: 115px;
+    }
+    
+    .nome_cientifico {
+        /* Posiciona o nome científico do animal de forma absoluta */
+        position: absolute;
+        margin-left: -300px;
+        margin-top: 145px;
+    }
+    
+    .img_footer {
+        /* Ajusta largura das imagens no rodapé */
+        width: 100%;
+    }
+    
+    .img_animal {
+        /* Ajusta largura das imagens de animais */
+        width: 500px;
+    }
+    
+    .centralizar_img_animal {
+        /* Centraliza imagens de animais */
+        text-align: center;
+    }
+    
+    .texto_animal {
+        /* Remove bordas do texto associado ao animal */
+        border: none;
+    }
+
+    .col img {
+        width: 180px;
+    }
+}
+    
+@media (min-width: 1400px) and (max-width: 2400px) {
+
+        main {
+            /* Ajusta margens e espaçamento para telas maiores */
+            margin-right: 250px;
+            margin-left: 250px;
+            background: #d8dadd;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    
+        .dropdown-menu {
+            /* Garante que o menu suspenso fique visível sobre outros elementos */
+            z-index: 10000;
+        }
+        
+        .carousel img {
+            /* Aumenta tamanho e ajusta margem das imagens do carrossel em telas grandes */
+            height: 600px;
+            width: 1000px;
+            margin-left: 80px;
+        }
+    
+        .nome_animal {
+            /* Ajusta posição do nome do animal em telas grandes */
+            position: absolute;
+            margin-left: -400px;
+            margin-top: 150px;
+        }
+    
+        .nome_cientifico {
+            /* Ajusta posição do nome científico em telas grandes */
+            position: absolute;
+            margin-left: -400px;
+            margin-top: 185px;
+        }
+
+        .card {
+            /* Remove borda e define cor de fundo para os cartões */
+            border: none;
+            background: #d8dadd;
+        }
+
+        .card-group img {
+            /* Define altura fixa para imagens em grupos de cartões */
+            height: 270px;
+        }
+
+        .card-group {
+            /* Alinha texto dos grupos de cartões com justificação */
+            text-align: justify;
+        }
+        
+        .borda {
+            /* Define espaçamento inferior */
+            padding-bottom: 70px;
+        }
+        
+        .nome_animal {
+            /* Posiciona o nome do animal de forma absoluta */
+            position: absolute;
+            margin-left: -300px;
+            margin-top: 115px;
+        }
+        
+        .nome_cientifico {
+            /* Posiciona o nome científico do animal de forma absoluta */
+            position: absolute;
+            margin-left: -300px;
+            margin-top: 145px;
+        }
+        
+        .img_footer {
+            /* Ajusta largura das imagens no rodapé */
+            width: 100%;
+        }
+        
+        .img_animal {
+            /* Ajusta largura das imagens de animais */
+            width: 500px;
+        }
+        
+        .centralizar_img_animal {
+            /* Centraliza imagens de animais */
+            text-align: center;
+        }
+        
+        .texto_animal {
+            /* Remove bordas do texto associado ao animal */
+            border: none;
+        }
+
+        .col img {
+            width: 200px;
+        }
+}

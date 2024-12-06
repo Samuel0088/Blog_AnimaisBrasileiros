@@ -1,0 +1,42 @@
+.titulo {
+    /* Define o tamanho da fonte, cor e margem esquerda para títulos */
+    font-size: 25px;
+    color: #f29e38;
+    margin-left: 20px;
+}
+
+#autores {
+    /* Centraliza o texto e define tamanho da fonte para o elemento de autores */
+    text-align: center;
+    font-size: 25px;
+}
+
+.img_autores img {
+    /* Ajusta a largura e posiciona as imagens dos autores */
+    width: 350px;
+    margin-top: -70px;
+}
+
+.img_autores {
+    /* Centraliza o container de imagens dos autores */
+    text-align: center;
+}
+
+.texto {
+    /* Define margens laterais para o texto */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 1400px) and (max-width: 2400px) {
+    main {
+        /* Adiciona espaçamento superior e inferior para telas grandes */
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .dropdown-menu {
+        /* Garante sobreposição do menu suspenso em telas grandes */
+        z-index: 10000;
+    }
+}
